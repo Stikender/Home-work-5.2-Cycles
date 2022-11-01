@@ -41,5 +41,24 @@ public class Main {
         for (int e = 1; e <=512; e *= 2) {
             System.out.println(e);
         }
+
+        System.out.println("Exercise 3.1");
+
+        int deposit = 0;
+        for (int g = 1; g <=12; g ++) {
+            deposit += 29000;
+            System.out.println("Месяц, " + g + " сумма накоплений равна " + deposit + " рублей.");
+        }
+
+        System.out.println("Exercise 3.2");
+
+        int depositA = 0;
+        for (int j = 1; j<=12; j ++) {
+            depositA += 29000;
+            depositA = depositA + depositA/100;
+
+            System.out.println("Месяц, " + j + " сумма накоплений равна " + depositA + " рублей.");
+        }
+
     }
 }
