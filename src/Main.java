@@ -23,5 +23,23 @@ public class Main {
         for (int d = 10; d >= -10; d --) {
             System.out.println(d);
         }
+
+        System.out.println("Exercise 2.1");
+
+        for (int i = 1904; i <=2096; i += 4) {
+            System.out.println(i + " год является високосный");
+        }
+
+        System.out.println("Exercise 2.2");
+
+        for (int f = 7; f <=98; f+= 7) {
+            System.out.println(f);
+        }
+
+        System.out.println("Exercise 2.3");
+
+        for (int e = 1; e <=512; e *= 2) {
+            System.out.println(e);
+        }
     }
 }
